@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Frontend Mentor | Coding Bootcamp Testimonials Slider</title>
+  </head>
+  <body>
+    <img
+      src="/images/pattern-curve.svg"
+      alt="Curve background"
+      class="body-bg"
+    />
+    <div class="slide">
+      <div class="testimonial-container">
+        <img src="/images/pattern-quotes.svg" alt="Quotes" class="quotes" />
+        <div class="shift">
+          <p class="testimonial">
+            “ I’ve been interested in coding for a while but never taken the
+            jump, until now. I couldn’t recommend this course enough. I’m now in
+            the job of my dreams and so excited about the future. ”
+          </p>
+          <div class="name-container">
+            <h3 class="name">Tanya Sinclair</h3>
+            <p class="occupation">UX Engineer</p>
+          </div>
+        </div>
+
+        <div class="shift2 hidden">
+          <p class="testimonial">
+            “ If you want to lay the best foundation possible I’d recommend
+            taking this course. The depth the instructors go into is incredible.
+            I now feel so confident about starting up as a professional
+            developer. ”
+          </p>
+          <div class="name-container">
+            <h3 class="name">John Tarkpor</h3>
+            <p class="occupation">Junior Front-end Developer</p>
+          </div>
+        </div>
+      </div>
+      <div class="img-container">
+        <img
+          src="/images/pattern-bg.svg"
+          alt="Background behind the image"
+          class="img-bg"
+        />
+        <img src="/images/image-tanya.jpg" class="avatar tanya" alt="" />
+        <img src="/images/image-john.jpg" class="avatar john hidden" alt="" />
+        <div class="btns">
+          <a href="#" class="prev">&#60; </a>
+          <a href="#" class="next">&#62; </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Thomais Zafeiriou</a>.
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
